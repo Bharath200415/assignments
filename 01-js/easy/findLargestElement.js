@@ -12,6 +12,7 @@ function findLargestElement(numbers) {
             bigElement = numbers[i];
         }
     }
+    let sum = 0;
     return bigElement;
     
 }
