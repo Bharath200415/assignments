@@ -10,15 +10,12 @@ function isPalindrome(str){
   while (left<right){
     if (checkstring[left]!=checkstring[right]){
       return false;
-
     }
     left++;
     right--;
     
   }
   return true;
-
-  
 
 }
 
